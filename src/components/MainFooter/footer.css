@@ -1,0 +1,12 @@
+.container{
+    margin: 0 auto;
+    width: 1108px;
+}
+.footer{
+    background-color: rgb(13, 15, 18);
+}
+.footer__item{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cinzel;
+}
+.container{
+    margin: 0 auto;
+    width: 1108px;
+}
+.main{
+    padding-top: 20px;
+    background-image: url(/src/assets/fundo.png);
+    background-color: rgb(21, 23, 26);
+    background-repeat: no-repeat;
+    background-size: 216vh;
+}
+.first__block__video{
+    transform: translate(660px, 30px);
+    width: 345px;
+}
+.first__block{
+    max-width: 1108px;
+    height: 550px;
+}
+.first__block{
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: 315px;
+    background-position-y: 30px;
+    background-image: url(../../assets/backgroundbrutal.png);
+}
+.first__block__btn2{
+    margin-left: 10px;
+}
+.first__block__btn1,
+.first__block__btn2{
+    background-color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 12px 16.4px;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.first__block__title{
+    word-spacing: 4px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.first__block__subtitle{
+    margin-bottom: 25px;
+    padding-top: 14px;
+    width: 400px;
+    font-size: 12px;
+}
+.first__block__left{
+    gap: 200px;
+    width: 560px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.first__block::before{
+    transform: translateY(60px);
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 200px;
+    z-index: 1;
+    background: linear-gradient(to top, rgb(21, 23, 26), transparent);
+}
+.second__block{
+    text-align: center;
+    margin-top: 10px;
+    background: rgb(21,23,26);
+    height: 730px;
+}
+.second__block__title{
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+.slider{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.slider__item__img:hover{
+    filter: brightness(170%);
+}
+.witchimg:hover{
+    filter: brightness(125%);
+}
+.witchimg{
+    filter: brightness(80%)
+}
+.slider__prev{
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 130px;
+    transform: rotate(180deg);
+}
+.slider__next{
+    transform: translateY(220px);
+    align-items: center;
+    cursor: pointer;
+}
